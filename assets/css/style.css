@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    z-index: 5;
+}
+hr{
+    border: 2px solid #17a3b8;
+    opacity: 1;
+}
+#header{
+    transition-duration: .25s, .25s;
+    transition-timing-function: linear, ease-in-out;
+}
+.navbar h1{
+    display: inline;
+    line-height: 40px;
+    font-size: 27px;
+}
+section{
+    margin-top: 30px;
+}
+section h2{
+text-align: center;
+}
+.logo{
+    max-height: 48px
+}
+.hero{
+    margin-top: -79px;
+}
+i{
+    text-align: center;
+    background-color: #17a3b8;
+    font-size: 52px;
+    line-height: 60px !important;
+}
+.card{
+
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.featured row{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.card-img-top{
+    height: 226px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-body{
+    background-color: #17a3b8;
+}
+.carousel-item{
+    max-height: 927px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+.navbar{
+    transition-duration: .25s, .25s;
+    transition-timing-function: linear, ease-in-out;}
+.icons{
+    width: 271px;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    margin-top: 30px;
+    background-color : #17a3b8;
+}
+footer h3 {
+    line-height: 2.3;
+}
+@media (max-width: 1200px){
+    .card{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    p {
+        font-size: 20px;
+    }
+    .card{
+        min-height: 600px;
+    }
+    h3{
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .container-1920{
+       max-width: 1800px;
+    }
+}  
